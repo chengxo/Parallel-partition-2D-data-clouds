@@ -1,14 +1,3 @@
-
-/** \file p4est_step1.c
- *
- * This 2D example program refines a domain based on given image data.
- * The image file hw32.h has been created with the GIMP and is compiled in.
- */
-
-/* p4est has two separate interfaces for 2D and 3D, p4est*.h and p8est*.h.
- * Most API functions are available for both dimensions.  The header file
- * p4est_to_p8est.h #define's the 2D names to the 3D names such that most code
- * only needs to be written once.  In this example, we rely on this. */
 #ifndef P4_TO_P8
 #include <p4est.h>
 #include <string.h>
